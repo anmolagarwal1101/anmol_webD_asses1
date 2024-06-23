@@ -1,0 +1,236 @@
+/* GENERAL STYLES */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #f0509e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #c23a81;
+}
+
+/* HEADER STYLES */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* HERO STYLES */
+.hero {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* STATS STYLES */
+.stats {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.stats .stat {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.stats .stat img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.stats .stat h2 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.stats .stat p {
+    font-size: 16px;
+}
+
+/* FEATURE STYLES */
+.feature {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.feature .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature .content {
+    flex: 1;
+}
+
+.feature .image {
+    flex: 1;
+    text-align: right;
+}
+
+.feature .image img {
+    width: 500px;
+}
+
+/* CTA STYLES */
+.cta {
+    padding: 80px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* FOOTER STYLES */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .logo {
+    margin-bottom: 20px;
+}
+
+footer .contact {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .contact li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer .social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .social li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .social a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .newsletter {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+footer .newsletter h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer .newsletter p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+footer .newsletter form {
+    display: flex;
+}
+
+footer .newsletter input[type="email"] {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+footer .newsletter button[type="submit"] {
+    padding: 12px 24px;
+    background-color: #f0509e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer .newsletter button[type="submit"]:hover {
+    background-color: #c23a81;
+}
